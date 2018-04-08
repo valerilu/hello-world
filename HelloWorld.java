@@ -1,7 +1,11 @@
-public class HelloWorld {
+import javax.swing.JOptionPane;
 
-  public static void main(String[]args) {
-    System.out.println("Hello World !!!");
-  }
+class Hello {
+
+    public static void main(String[] args) {
+
+        JOptionPane.showMessageDialog(null, "Hello World !!!");
+
+    }
 
 }
